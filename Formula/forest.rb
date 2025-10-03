@@ -1,16 +1,16 @@
 class Forest < Formula
   desc "A CLI tool to make working with easier by establishing a few conventions and abstracting away some git commands."
   homepage "https://github.com/tcione/forest"
-  version "0.10.0"
+  version "0.10.1"
   license "MIT OR Apache-2.0"
 
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/tcione/forest/releases/download/v#{version}/forest-macos-x86_64"
-      sha256 "e5492f50537b83a92682177109c3b9c51b6d6644c439c4f57e5c801267b03d9d"
+      sha256 "89a7fdb8732b0dd3c18608045a3f2e4401da25b81b214e1d4a86252530c48e06"
     else
       url "https://github.com/tcione/forest/releases/download/v#{version}/forest-macos-aarch64"
-      sha256 "290d3c079f3a4b0f5d3b57795f5898b931174d2d00160133ef809ae4a4e45317"
+      sha256 "4b67b4c66f4251318a11719d700ebf88fa0488129c33bba382bc7269e160996c"
     end
   end
 
