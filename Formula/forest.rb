@@ -29,7 +29,7 @@ class Forest < Formula
     <<~EOS
       To enable the fogo command for quick navigation,
   see:
-      https://github.com/tcione/forest#shell-integration-fogo-command
+      https://github.com/tcione/forest?tab=readme-ov-file#bonus-shell-integration-fogo-command
     EOS
   end
 
