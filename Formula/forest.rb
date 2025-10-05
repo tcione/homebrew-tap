@@ -25,6 +25,14 @@ class Forest < Formula
     end
   end
 
+   def caveats
+    <<~EOS
+      To enable the fogo command for quick navigation,
+  see:
+      https://github.com/tcione/forest#shell-integration-fogo-command
+    EOS
+  end
+
   test do
     system "#{bin}/forest", "--help"
     assert_match "Convention-over-configuration CLI tool to manager git worktrees", shell_output("#{bin}/forest --help")
