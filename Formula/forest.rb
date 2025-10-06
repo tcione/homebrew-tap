@@ -1,7 +1,7 @@
 class Forest < Formula
   desc "A CLI tool to make working with easier by establishing a few conventions and abstracting away some git commands."
   homepage "https://github.com/tcione/forest"
-  version "0.10.1"
+  version "0.11.1"
   license "MIT OR Apache-2.0"
 
   on_macos do
